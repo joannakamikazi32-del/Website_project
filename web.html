@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Student Information</title>
+    </head>
+    <body style="background-color: bisque;">
+        <h2>Student's table</h2>
+        <table border="3">
+        <thead>
+            <th>Names</th>
+            <th>Class</th>
+            <th>Trade</th>
+            <th>Grade</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Sandra</td>
+                <td>L3</td>
+                <td>SOD</td>
+                <td>75%</td>            
+            </tr>
+            <tr>
+                <td>Manzi</td>
+                <td>L4</td>
+                <TD>NIT</TD>
+                <td>80%</td>
+            </tr>
+            <tr>
+                <td>Laura</td>
+                <td>L3</td>
+                <td>SOD</td>
+                <td>85%</td>
+            </tr>
+        </tbody>
+        </table>
+
+        <form>
+            <h2>Registration Form</h2>
+            <label>Enter Name</label><br>
+            <input type="text" placeholder="Enter name"><br>
+            <label>Enter Grade</label><br>
+            <input type="number" placeholder="Enter Grade"><br>
+            <label>Enter trade</label><br>
+            <input type="text" placeholder="Enter trade"><br>
+
+            <h2>Select gender</h2>
+
+            <input type="radio" name="gender" value="male">Male<br>
+            <input type="radio" name="gender" value="female">Female<br>
+
+            <strong>Select module you would like to study</strong><br>
+            <input type="checkbox" name="module" value="web">website development<br>
+            <input type="checkbox" name="module" value="vue">vue<br>
+            <input type="checkbox" name="module" value="UI/UX">UI/UX<br>
+            <input type="checkbox" name="module" value="Javascript">Javascript<br><br>
+
+            <label for="Countries" name="Countries">
+                Select your country
+                <select id="Countries" name="Countries">
+                    <option value="none">none</option>
+                    <option value="rwanda">Rwanda</option>
+                    <option value="uganda">Uganda</option>
+                    <option value="kenya">Kenya</option>
+                    <option value="tanzania">Tanzania</option>
+                </select>
+            </label>
+
+        </form>
+    </body>
+</html>
